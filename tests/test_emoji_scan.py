@@ -1,4 +1,4 @@
-from emoji_extractor.emoji_utils import extract_unique_emojis, emoji_extractor
+from emoji_scan.emoji_utils import extract_unique_emojis, emoji_extractor
 
 def test_extract_unique_emojis():
     text = "Hello! 😃🌍"

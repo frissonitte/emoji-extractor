@@ -3,11 +3,11 @@ requires = ["setuptools>=42", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "emoji-extractor"
+name = "emojiscan"
 version = "0.1.0"
 description = "A Python package to extract unique emojis from text files."
 authors = [
-    { name = "frissonite", email = "frissonite@gmail.com" }
+    { name = "frissonitte", email = "frissonite@gmail.com" }
 ]
 readme = "README.md"
 license = { file = "LICENSE" }
@@ -21,9 +21,9 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/frissonitte/emoji-extractor"
-Repository = "https://github.com/frissonitte/emoji-extractor"
-Issues = "https://github.com/frissonitte/emoji-extractor/issues"
+Homepage = "https://github.com/frissonitte/emojiscan"
+Repository = "https://github.com/frissonitte/emojiscan"
+Issues = "https://github.com/frissonitte/emojiscan/issues"
 
 [tool.pytest.ini_options]
 addopts = "-v"
